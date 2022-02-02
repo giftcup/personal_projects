@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* #main {
+    display: flex;
+    flex-direction: row;
+} */
+
+#main_navigation {
+    background-color: rgb(37, 36, 44);
+    color: #ffffff;
+    margin: 0;
+    height: 100vh;
+    position: fixed;
+}
+
+#main_navigation ul {
+    display: inline;
+    margin: 1em;
+    list-style-type: none;
+}
+
+#main_navigation li {
+    padding: 1em;
+    transform: rotate(270deg);
+}
+
+#main_navigation a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.page_navigation li {
+    margin: 1.5em;
+}
+
+.socials li{
+    margin: 5px;
+}
+
+#body {
+    padding-left: 100px;
+    /* padding: 1.5em; */
+}
+
+#home {
+    background: linear-gradient(rgba(37, 36, 44, 0.8), rgba(37, 36, 44, 0.8)), url(../assets/IMG_20210821_085647_823.jpg) center no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 5em;
+    color: rgb(255,255,255);
+}
+#title {
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+#believe {
+    max-width: 70%;
+    padding: 8px 0;
+    line-height: 1.5em;
+}
+
+#btn_more {
+    padding: 1em 1.5em;
+    font-size: 16px;
+    background-color: rgb(20, 9, 177);
+    color: rgb(255,255,255);
+    border: none;
+    border-radius: 5px;
+}
+
+#about {
+    padding: 1em 40px;
+    height: 100vh;
+}
+
+.about_text {
+    display: flex;
+    padding: 2em
+}
+
+.side_image {
+    width: 20vw;
+    height: 70vh;
+    border-radius: 1em;
+    transform: rotate(-6deg);
+    filter: grayscale(100%);
+    margin: 1em 2em;
+}
+
+#title_about {
+    font-size: 32px;
+    padding-top: 1.5em;
+}
+
+#question {
+    color: rgb(128, 128, 128);
+}
+
+#about_me {
+    display: flex;
+    text-align: left;
+    width: 40vw;
+    flex-direction: column;
+    line-height: 1.5em;
+    line-break: strict;
+}
+
+#about_me h1{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+
+i {
+    font-family: "FontAwesome" !important;
+}
