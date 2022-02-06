@@ -28,7 +28,7 @@ a {
     list-style-type: none;
 }
 
-#main_navigation li {
+.page_navigation li {
     padding: 1em;
     transform: rotate(270deg);
 }
@@ -44,6 +44,7 @@ a {
 }
 
 .socials li{
+    padding: 1em 1em 1em 3em;
     margin: 5px;
 }
 
@@ -69,15 +70,16 @@ a {
 }
 
 #believe {
-    max-width: 70%;
+    max-width: 53%;
     padding: 8px 0;
     line-height: 1.5em;
 }
 
 #btn_more {
+    margin-top: 1em;
     padding: 1em 1.5em;
     font-size: 16px;
-    background-color: rgb(20, 9, 177);
+    background-color: #208AFA;
     color: rgb(255,255,255);
     border: none;
     border-radius: 5px;
