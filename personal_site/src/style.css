@@ -7,6 +7,10 @@
 
 a {
     text-decoration: none;
+    color: rgb(255,255,255);
+}
+a:active {
+    color: #208AFA;
 }
 
 #main_navigation {
@@ -26,9 +30,9 @@ a {
     color: #ffffff;
     background-color: #208AFA;
     border-radius: 50%;
-    width: 55%;
+    width: 90%;
     padding: 1em 5px;
-    margin: 1em 1em 3em 1em;
+    margin-bottom: 3em;
     text-align: center;
 }
 
@@ -52,7 +56,7 @@ a {
     color: #208AFA;
 }
 
-#main_navigation a:active :active {
+#main_navigation a:active {
     color: #208AFA;
 }
 
@@ -73,7 +77,6 @@ a {
 
 #body {
     padding-left: 100px;
-    /* padding: 1.5em; */
 }
 
 #home {
@@ -116,7 +119,7 @@ a {
 
 .about_text {
     display: flex;
-    padding: 2em
+    padding: 2em;
 }
 
 .side_image {
@@ -144,7 +147,11 @@ a {
     width: 40vw;
     flex-direction: column;
     line-height: 1.5em;
-    line-break: strict;
+    text-align: justify;
+}
+
+#about_me p {
+    color: rgba(0,0,0,0.6);
 }
 
 #about_me h1{
