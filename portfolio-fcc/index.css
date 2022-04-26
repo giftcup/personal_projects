@@ -1,0 +1,55 @@
+:root {
+    --main-red: #be3144;
+    --main-grey: #303841;
+    --main-white: #f0f0f0;
+  }
+  
+  * {
+    font-family: 'Poppins', 'sans-serif';
+  }
+  
+  body {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--main-white);
+    margin: 0;
+  }
+  
+  /* Navbar styles */
+  
+  navbar {
+    margin: 0;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    justify-content: flex-end;
+    background-color: var(--main-red);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 2rem;
+  }
+  navbar ul li a{
+    display: block;
+    font-size: 2.2rem;
+    text-decoration: none;
+    color: var(--main-white);
+    padding: 2rem;
+  }
+  
+  #welcome-section {
+    background-color: var(--main-grey);
+    margin: 0;
+    height: 100vh;
+  }
+  
+  #welcome-section h1 {
+    margin: 0 auto;
+  }
+  
